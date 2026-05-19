@@ -1,0 +1,21 @@
+Dear students,
+
+Here are some clarifications about the project.
+
+There are three tools you MUST develop:
+- One tool to receive NEW DATA as a table and predict using a trained model.
+To clarify, you use your dataset of choice to train a model. Then you save the model to a file using the Model Writer Node. You then create a tool that uses the model reader node to read this file and you give it NEW DATA. By new data I mean giving it new observations in table form as input.
+YOU DO NOT need to train more than one model, just pick one, train it and use it on a tool with the Model reader node.
+- A second tool that outputs the confidence of these predictions (in classification this is just the probability of the predicted class).
+- A third tool that receives the description of the data you want to make predictions for in textual form and converts it to table form:  I.e., your model needs the observations in table form right? You essentially develop a tool where you describe them in textual form and have them transformed into the table format. Use an llm for this, its easier. You prompt the llm saying that you want the description of the observations to be converted into a specific table form. Then you parse that and convert it.
+
+The above are the bare minimum mandatory ones.
+
+Add one or two more for some extra grade (check the exercises on responsible AI. You can add a tool to tell what are the most important features).
+
+Think of tools as functions and the goal is to have your agent using them. Again, see the exercises on agentic AI.
+
+Essentially, after you have your tools developed, you use the nodes list/files folder -> workflow to tool -> agent prompter -> view agent conversation.
+
+Please use simple datasets. I recommend using the ones from the classes. DO NOT overthink it.
+Any questions, please do ask.

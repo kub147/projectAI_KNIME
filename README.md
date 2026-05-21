@@ -58,8 +58,8 @@ Plik: `cleaning_dataset_eur.csv` | **1000 wierszy**, syntetyczny
 | **Etap 1** | Wczytanie datasetu, One-to-Many, trening modelu, Scorer | Osoba 1 | ✅ ZROBIONE |
 | **Etap 2** | Model Writer – zapis modelu do pliku | Osoba 1 | ✅ ZROBIONE |
 | **Tool 1** | Workflow: predykcja dla nowych danych (Table Input → Model Reader → Predictor → Table Output) | Osoba 1 | ✅ ZROBIONE |
-| **Tool 2** | Workflow: confidence predykcji (przedział ufności ±10% lub R² jako miara) | Osoba 2 | ⏳ DO ZROBIENIA |
-| **Tool 3** | Workflow: tekst → tabela przez LLM | Osoba 2 | ⏳ DO ZROBIENIA |
+| **Tool 2** | Workflow: confidence predykcji (przedział ufności ±10% lub R² jako miara) | Osoba 2 | ✅ ZROBIONE |
+| **Tool 3** | Workflow: tekst → tabela przez LLM | Osoba 2 | ✅ ZROBIONE |
 | **Tool 4** | Workflow: feature importance (bonus) | Osoba 3 | ⏳ DO ZROBIENIA |
 | **Agent** | Połączenie wszystkich narzędzi w agenta (List Files → Workflow to Tool → Agent Prompter → View Conversation) | Osoba 3 | ⏳ DO ZROBIENIA |
 
